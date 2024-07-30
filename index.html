@@ -141,27 +141,12 @@ document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValu
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script><script  src="./script.js"></script>
 
 
- <div class="nowplaying"></div>
-    <script src="https://cdn.jsdelivr.net/jquery/3.2.0/jquery.min.js"></script>
-    <script>
-
-        setInterval(function() {
-            $.ajax({
-                url: "http://uk7freenew.listen2myradio.com:11027/currentsong?sid=1",
-                dataType: "html",
-                success: function(data) {
-                    $('.nowplaying').text(data);
-                    console.log(data);
-                }
-            }); 
-        }, 1000);   
-
-    </script>
 
 
+<center><p id="np">Now Playing: http://uk7freenew.listen2myradio.com:11027/currentsong?sid=1 </p></center>
 	
 <p>
-<a href="http://uk7freenew.listen2myradio.com:11027/currentsong?sid=#"></a>
+<a href="http://uk7freenew.listen2myradio.com:11027/currentsong?sid=1"></a>
 	
 </p>
 
