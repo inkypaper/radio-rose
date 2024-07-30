@@ -147,7 +147,7 @@ document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValu
 
         setInterval(function() {
             $.ajax({
-                url: "http://uk7freenew.listen2myradio.com:11027/currentsong?sid=#",
+                url: "http://uk7freenew.listen2myradio.com:11027/currentsong?sid=1",
                 dataType: "html",
                 success: function(data) {
                     $('.nowplaying').text(data);
